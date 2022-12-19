@@ -1,0 +1,669 @@
+/* TEAMS FONTS - The Segoe family of fonts is the primary font specified by Microsoft, Roboto is also considered acceptable. 
+/* Custom Fonts are supported through CSS. In order to leverage these fonts, they must be copied into the Q-SYS Style folder*/
+
+
+
+
+/* CONTROLS */
+@import url("Fader"); 
+
+
+page {
+  /* background-color: #ff0000; */
+  background-color: #2D2C2C; 
+
+}
+
+ textbox {
+  color: #F3F2F1; 
+  font-family: 'Segoe UI'; 
+  background-color:rgb(32,31,31);
+  border: 0px transparent;
+  font-family: 'Segoe UI';
+  font-size: 18px;
+  text-align: left;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+led {
+  background-color:#464775;
+  border: 0px transparent;
+}
+
+led:value(1) {
+  background-color: #6264a7;
+  border: 0px transparent;
+}
+
+ combobox {
+  background-color: rgb(32,31,31);
+  color: #F3F2F1; 
+  font-family: 'Segoe UI';
+  font-size: 18px;
+  padding: 10px;
+  text-align: left;
+  border: 0px transparent;
+} 
+
+listbox {
+  background-color: rgb(32,31,31);
+  color: #F3F2F1; 
+  font-family: 'Segoe UI';
+  font-size: 18px;
+  padding: 10px;
+  text-align: left;
+  border: 0px transparent;
+} 
+
+/* fader {
+  background-color: #6264a7;
+  border: 1px #505050;
+  font-family: 'Segoe UI';
+  color: #F3F2F1;
+  font-size: 14px;
+} */
+
+meter {
+  background-color: #3B3A39;
+  color: #6264a7; 
+  border: 0px transparent;
+} 
+
+.textboxfader {
+  color: #F3F2F1; 
+  background-color: #6264a7;
+  border: 0px transparent;
+  font-family: 'Segoe UI';
+  font-size: 18px;
+  border-radius: 3px;
+  text-align: center;
+} 
+
+.buttonprimary {
+  background-color: #464775;
+  border: 1px #505050;
+  font-family: 'Segoe UI';
+  color: #F3F2F1;
+  font-size: 18px;
+  border-radius: 3px;
+}
+
+.buttonprimary:value(1) {
+  background-color: #6264A7;
+  color: #F3F2F1;
+  border: 1px #505050;
+}
+
+.buttonsecondary {
+  background-color: transparent;
+  border: 1px #505050;
+  font-family: 'Segoe UI';
+  color: #F3F2F1;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.buttonsecondary:value(1) {
+  background-color: #6264a7;
+  color: #F3F2F1;
+} 
+
+.buttonsnapshot {
+  background-color: #464775;
+  border: 1px #505050;
+  font-family: 'Segoe UI';
+  color: #F3F2F1;
+  font-size: 18px;
+  border-radius: 3px;
+}
+
+.buttonsnapshot:value(1) {
+  background-color: #585A96;
+  color: #F3F2F1;
+  border: 1px #505050;
+}
+
+.buttonsnapshot:value(2) {
+  background-color: #6264A7;
+  color: #F3F2F1;
+  border: 1px #505050;
+}
+
+.texttitle {
+  color: #F3F2F1; 
+  font-family: 'Segoe UI Bold';
+  font-size: 40px;
+  text-align: left;
+}
+
+.textheading {
+  color: #F3F2F1; 
+  font-family: 'Segoe UI Bold';
+  font-size: 24px;
+  text-align: left;
+}
+
+.textbody {
+  color: #F3F2F1; 
+  font-family: 'Segoe UI';
+  font-size: 24px;
+  text-align: left;
+}
+
+.textlabel {
+  color: #F3F2F1; 
+  font-family: 'Segoe UI Light';
+  font-size: 22px;
+  text-align: left;
+}
+
+.textlabeldisplay {
+  color: #F3F2F1;
+  background-color: transparent; 
+  font-family: 'Segoe UI Light';
+  font-size: 22px;
+}
+
+.texttitledisplay {
+  color: #F3F2F1;
+  background-color: transparent; 
+  font-family: 'Segoe UI Bold';
+  font-size: 40px;
+}
+
+.textbodydisplay {
+  color: #F3F2F1;
+  background-color: transparent; 
+  font-family: 'Segoe UI';
+  font-size: 24px;
+}
+
+.textheadingdisplay {
+  color: #F3F2F1;
+  background-color: transparent;  
+  font-family: 'Segoe UI Bold';
+  font-size: 24px;
+}
+
+.justifyleft {
+  text-align: left;
+}
+
+.justifycenter {
+  text-align: center;
+}
+
+.justifyright {
+  text-align: right;
+} 
+
+/* ICONS */
+
+.iconeye {
+  background-image: url("icons/eye-off-line.svg");
+  background-color: transparent;
+  border: 1px #505050;
+  background-size: 75%;
+  border-radius: 3px;
+}
+
+.iconeye:value(1) {
+  background-color:#6264a7;
+  border: 0px transparent;
+}
+
+.iconhome {
+  background-image: url("icons/home-line.svg");
+  background-color: transparent;
+  border: 0px #505050;
+  background-size: 100%;
+  border-radius: 3px;
+}
+
+.iconhome:value(1) {
+  background-color:#ffffff9c;
+  border: 0px transparent;
+}
+
+.iconvolup {
+  background-image: url("icons/volume-up.svg");
+  background-color: transparent;
+  border: 0px #505050;
+  background-size: 90%;
+  border-radius: 3px;
+}
+
+.iconvolup:value(1) {
+  background-color:#6264a7;
+  border: 0px transparent;
+}
+
+.iconvoldown {
+  background-image: url("icons/volume-down.svg");
+  background-color: transparent;
+  border: 0px #505050;
+  background-size: 90%;
+  border-radius: 3px;
+}
+
+.iconvoldown:value(1) {
+  background-color:#6264a7;
+  border: 0px transparent;
+}
+
+.iconvolmute {
+  background-image: url("icons/volume-mute.svg");
+  background-color: transparent;
+  border: 0px #505050;
+  background-size: 90%;
+  border-radius: 3px;
+}
+
+.iconvolmute:value(1) {
+  background-color:#6264a7;
+  border: 0px transparent;
+}
+
+
+.iconvoloff {
+  background-image: url("icons/volume-off.svg");
+  background-color: transparent;
+  border: 0px #505050;
+  background-size: 90%;
+  border-radius: 3px;
+}
+
+.iconvoloff:value(1) {
+  background-color:#6264a7;
+  border: 0px transparent;
+}
+
+.iconleft {
+  background-image: url("icons/arrow-left-circle.svg");
+  background-color: transparent;
+  border: 0px #505050;
+  background-size: 90%;
+  border-radius: 3px;  
+}
+
+.iconleft:value(1) {
+  background-color:#6264a7;
+  border: 0px transparent;
+}
+
+.iconright {
+  background-image: url("icons/arrow-right-circle.svg");
+  background-color: transparent;
+  border: 0px #505050;
+  background-size: 90%;
+  border-radius: 3px;
+}
+
+.iconright:value(1) {
+  background-color:#6264a7;
+  border: 0px transparent;
+}
+
+.iconup {
+  background-image: url("icons/arrow-up-circle.svg");
+  background-color: transparent;
+  border: 0px #505050;
+  background-size: 90%;
+  border-radius: 3px;
+}
+
+.iconup:value(1) {
+  background-color:#6264a7;
+  border: 0px transparent;
+}
+
+.icondown {
+  background-image: url("icons/arrow-down-circle.svg");
+  background-color: transparent;
+  border: 0px #505050;
+  background-size: 90%;
+  border-radius: 3px;
+}
+
+.icondown:value(1) {
+  background-color:#6264a7;
+  border: 0px transparent;
+}
+
+.iconzoomin {
+  background-image: url("icons/zoom-in-line.svg");
+  background-color: transparent;
+  border: 0px #505050;
+  background-size: 90%;
+  border-radius: 3px;
+}
+
+.iconzoomin:value(1) {
+  background-color:#6264a7;
+  border: 0px transparent;
+}
+
+.iconzoomout {
+  background-image: url("icons/zoom-out-line.svg");
+  background-color: transparent;
+  border: 0px #505050;
+  background-size: 90%;
+  border-radius: 3px;
+}
+
+.iconzoomout:value(1) {
+  background-color:#6264a7;
+  border: 0px transparent;
+}
+
+.iconpower {
+  background-image: url("icons/shut-down-line.svg");
+  background-color:transparent;
+  border: 0px #505050;
+  background-size: 90%;
+  border-radius: 3px;
+}
+
+.iconpower:value(1) {
+  background-color:#ffffff85;
+  border: 0px transparent;
+}
+
+.iconupbar {
+  background-image: url("icons/arrow-up-bar.svg");
+  background-color: transparent;
+  border: 1px #505050;
+  background-size: 90%;
+  border-radius: 3px;
+}
+
+.iconupbar:value(1) {
+  background-color:#6264a7;
+  border: 0px transparent;
+}
+
+.icondownbar {
+  background-image: url("icons/arrow-down-bar.svg");
+  background-color: transparent;
+  border: 1px #505050;
+  background-size: 90%;
+  border-radius: 3px;
+}
+
+.icondownbar:value(1) {
+  background-color:#6264a7;
+  border: 0px transparent;
+}
+
+/* Cam's additions start */
+
+.textSourceLabel {
+  color:#F3F2F1;
+  border: 0px transparent;
+  background-color: transparent;
+  font-family: 'Segoe UI';
+  text-align: center;
+  overflow-wrap: normal;
+}
+
+.textSourceLabel:value(1) {
+  background-color:#ffffff9c;
+  border: 0px transparent;
+}
+
+.LEDbutton {
+    border-width: 24px;
+}
+
+.iconMic1 {
+  background-image: url("icons/microphoneWhite.png");
+  background-color: transparent;
+  border: 0px #505050;
+  background-size: 90%;
+  border-radius: 3px;
+}
+
+.iconMic1:value(1) {
+  background-color:#6264a7;
+  border: 0px transparent;
+}
+
+.iconMic2 {
+  background-image: url("icons/Mic white 02.png");
+  background-color: transparent;
+  border: 0px #505050;
+  background-size: 75%;
+  border-radius: 0px;
+}
+
+.iconMic2:value(1) {
+  background-color:#fcfcfc1a;
+  border: 0px transparent;
+  border-radius: 100%;
+  
+}
+
+.iconBluetooth {
+  background-image: url("icons/Bluetooth.png");
+  background-color: transparent;
+  border: 0px #505050;
+  background-size: 75%;
+  border-radius: 3px;
+}
+
+.iconBluetooth:value(1) {
+  background-color:#fcfcfc4f;
+  border: 0px transparent;
+}
+
+.iconLEDWall {
+  background-image: url("icons/LEDwall.png");
+  background-color: transparent;
+  border: 0px #505050;
+  background-size: 100%;
+  border-radius: 0px;
+}
+
+.iconLEDWall:value(1) {
+  background-color:#fcfcfc4f;
+  border: 0px transparent;
+}
+
+.iconLEDWall2 {
+  background-image: url("icons/LEDwall2.png");
+  background-color: transparent;
+  border: 0px #505050;
+  background-size: 100%;
+  border-radius: 0px;
+}
+
+.iconLEDWall2:value(1) {
+  background-color:#fcfcfc4f;
+  border: 0px transparent;
+}
+
+
+.textButtonLight {
+  color: #F3F2F1;
+  font-family: 'Segoe UI Light';
+}
+
+.textButtonSemilight {
+  color: #F3F2F1;
+  font-family: 'Segoe UI Semilight';
+}
+
+.textButtonMid {
+  color: #F3F2F1;
+  font-family: 'Segoe UI Semilight';
+}
+
+.textButtonBold {
+  color: #F3F2F1;
+  font-family: 'Segoe UI Bold';
+  text-align: center;
+}
+
+.textButtonAlignLeft {
+  text-align: Left;
+}
+
+.textButtonAlignCentre {
+  text-align: center;
+}
+
+.textButtonAlignRight {
+  text-align: right;
+}
+
+.textOverflow {
+  text-overflow: clip ;
+}
+
+
+
+.iconvolup2 {
+  background-image: url("icons/volume-up.svg");
+  background-size: 50%;
+  border-radius: 3px;
+}
+
+.iconvolup2:value(1) {
+  background-color:#6264a7;
+  border: 0px transparent;
+}
+
+.iconvoldown2 {
+  background-image: url("icons/volume-down.svg");
+  background-size: 50%;
+  border-radius: 3px;
+}
+
+.iconvoldown2:value(1) {
+  background-color:#6264a7;
+  border: 0px transparent;
+}
+
+.iconvolmute2 {
+  background-image: url("icons/volume-mute.svg");
+  background-size: 50%;
+  border-radius: 3px;
+}
+
+.iconvolmute2:value(1) {
+  background-color:#6264a7;
+  border: 0px transparent;
+}
+
+.iconvolupBT {
+  background-image: url("icons/volume-up.svg");
+  background-size: 40%;
+  border-radius: 3px;
+}
+
+.iconvolupBT:value(1) {
+  background-color:#6264a7;
+  border: 0px transparent;
+}
+
+.iconvoldownBT {
+  background-image: url("icons/volume-down.svg");
+  background-size: 40%;
+  border-radius: 3px;
+}
+
+.iconvoldownBT:value(1) {
+  background-color:#6264a7;
+  border: 0px transparent;
+}
+
+.iconvolmuteBT {
+  background-image: url("icons/volume-mute.svg");
+  background-size: 40%;
+  border-radius: 3px;
+}
+
+.iconvolmuteBT:value(1) {
+  background-color:#6264a7;
+  border: 0px transparent;
+}
+			
+
+
+.iconAudioControls {
+  background-image: url("icons/audio-controls-white.png");
+  background-size: 75%;
+  border-radius: 3px;
+}
+
+.iconAudioControls:value(1) {
+  background-color:#6264a7;
+  border: 0px transparent;
+}
+
+
+
+
+/* Font Sizes */
+
+.font12 {
+  font-size: 12;
+}
+
+.font14 {
+  font-size: 14px
+}
+
+.font16 {
+  font-size: 16px
+}
+
+.font18 {
+  font-size: 18px
+}
+
+.font20 {
+  font-size: 20px
+}
+
+.font22 {
+  font-size: 22px
+}
+
+.font24 {
+  font-size: 24px
+}
+
+.font26 {
+  font-size: 26px
+}
+
+.font28 {
+  font-size: 28px
+}
+
+.font30 {
+  font-size: 30px
+}
+
+.font36 {
+  font-size: 36px
+}
+
+.font42 {
+  font-size: 42px
+}
+
+.font46 {
+  font-size: 46px
+}
+
+.font50 {
+  font-size: 50px
+}
+
+
+/* Cam's additions end */
+
