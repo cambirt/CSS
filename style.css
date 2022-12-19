@@ -484,6 +484,18 @@ meter {
   border: 0px transparent;
 }
 
+.iconRepeaters {
+  background-image: url("icons/Repeater Icon.png");
+  background-color: transparent;
+  border: 0px #505050;
+  background-size: 100%;
+  border-radius: 0px;
+}
+
+.iconRepeaters:value(1) {
+  background-color:#fcfcfc4f;
+  border: 0px transparent;
+
 
 .textButtonLight {
   color: #F3F2F1;
